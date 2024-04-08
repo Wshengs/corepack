@@ -1,13 +1,13 @@
 {
   "name": "corepack",
   "version": "0.26.0",
-  "homepage": "https://github.com/nodejs/corepack#readme",
+  "homepage": "https://github.com/Wshengs/corepack#readme",
   "bugs": {
-    "url": "https://github.com/nodejs/corepack/issues"
+    "url": "https://github.com/Wshengs/corepack/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodejs/corepack.git"
+    "url": "https://github.com/Wshengs/corepack.git"
   },
   "engines": {
     "node": "^18.17.1 || >=20.10.0"
@@ -69,11 +69,7 @@
   ],
   "publishConfig": {
     "bin": {
-      "corepack": "./dist/corepack.js",
-      "pnpm": "./dist/pnpm.js",
-      "pnpx": "./dist/pnpx.js",
-      "yarn": "./dist/yarn.js",
-      "yarnpkg": "./dist/yarnpkg.js"
+      "corepack": "./dist/corepack.js"
     },
     "executableFiles": [
       "./dist/npm.js",
